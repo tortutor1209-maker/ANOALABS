@@ -8,7 +8,7 @@ export const generateStoryContent = async (req: StoryRequest): Promise<StoryResu
   const { title, numScenes, visualStyle, language } = req;
 
   const systemInstruction = `
-    You are PIKHACU.AI ULTIMATE v4, a professional cinematic storytelling architect.
+    You are ANOALABS ULTIMATE v4, a professional cinematic storytelling architect.
     
     BRAIN RULES:
     1. NARRATION (STRICT 10-SECOND LIMIT):
@@ -93,7 +93,7 @@ export const generateAffiliateContent = async (
   numScenes: number
 ) => {
   const systemInstruction = `
-    Kamu adalah PIKHACU UGC TOOL - Pakar AI Video & Affiliate Marketing.
+    Kamu adalah ANOALABS UGC TOOL - Pakar AI Video & Affiliate Marketing.
     Tugas: Menghasilkan Video Prompt untuk VEO 3.1 & FLOW dengan fitur LIP-SYNC & VOICE PROMOTION.
 
     Gaya Konten: ${style}
